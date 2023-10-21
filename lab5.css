@@ -1,0 +1,60 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 7px;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ButtonCall{
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+    margin-left: 300px;
+    color: white;
+    background: -webkit-linear-gradient(#00e900,#009d00);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+
+.News {
+    width: 850px;
+    border-bottom: 3px black solid;
+    background-color: #b6f5f5;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.News:hover {
+    background-color: #ff5555;
+}
+dialog{
+    border: none;
+    box-sizing: border-box;
+    top: 300px;
+    background-color: #e2ff74;
+    width: 535px;
+    left: 5px;
+    padding: 0 0 0 20px;
+}
+dialog>h1{
+    text-align: center;
+}
+dialog::backdrop {
+    background-color: rgba(255, 255, 255, 0.8);
+} 
